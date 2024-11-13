@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Pássaros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .bird-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .bird-card {
+            width: 250px;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: white;
+        }
+        .bird-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .bird-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubra o Mundo dos Pássaros</h1>
+    </header>
+
+    <div class="bird-container" id="bird-container">
+        <!-- Cards de pássaros serão exibidos aqui -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
